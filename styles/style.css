@@ -17,6 +17,18 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: var(--bg);
     color: var(--clr);
+    padding: 0 calc(var(--spacing) * 3);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    border: var(--primary) 1px solid;
+    width: fit-content;
+    padding: calc(var(--spacing) / 10) calc(var(--spacing) /3);
+    border-radius: var(--spacing);
 }
 
 header h1 {
