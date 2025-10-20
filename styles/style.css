@@ -32,9 +32,16 @@
         font-size: 13px;
         color: var(--muted);
     }
-    nav a {
-        margin-left: 10px;
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 20px;
     }
+
+    /* nav a {
+        margin-left: 10px;
+    } */
 
     .hero {
         display: grid;
@@ -142,6 +149,24 @@
         justify-content: space-between;
         color: var(--muted);
         font-size: 14px;
+      }
+
+      .de_flag, .en_flag {
+        /* background-image: url('../img/de-flag.svg'); */
+        background-size: cover;
+        background-position: center;
+        display: inline-block;
+        width: 30px;
+        height:30px;
+        border-radius: 100%;
+      }
+
+      .de_flag {
+        background-image: url('../img/de-flag.svg');
+      }
+
+      .en_flag {
+        background-image: url('../img/en-flag.svg');
       }
 
       /* media queries */
