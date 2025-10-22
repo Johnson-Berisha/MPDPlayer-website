@@ -194,17 +194,28 @@ margin: 14px;
 }
 
 
-.features {
+.features, .grid-2 {
 grid-template-columns: 1fr;
 }
 
 
-.intro h1 {
-font-size: 22px;
-}
+  .intro h1 {
+    font-size: 22px;
+  }
 
 
-.phone-img {
-height: 360px;
-}
+  .phone-img {
+    height: 360px;
+  }
+
+  footer, header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  header .brand {
+    text-align: center;
+  }
 }
